@@ -1,0 +1,17 @@
+{% extends 'search.html' %}
+{% block search %}
+<div class="row">
+        <div class="col-sm-4">
+        <h1> google search</h1>
+        {{ var1|safe }}
+        </div>
+        <div class="col-sm-4">
+        <h1>yahoo search</h1>
+        {{ var2|safe }}
+        </div>
+        <div class="col-sm-4">
+            <h1>Bing search</h1>
+            {{ var3|safe }}
+        </div>
+</div>
+{% endblock search %}
